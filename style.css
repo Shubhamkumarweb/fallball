@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(./back.jpg);
+    background-size:cover;
+}
+#game{
+    width: 400px;
+    height: 500px;
+    border-top: 2px solid rgb(255, 255, 255);
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 3px 3px 3px 3px  rgba(0, 0, 0, 0.205);
+}
+#character{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    
+    /* background-image: ; */
+    border-radius: 50%;
+    position: relative;
+    top: 400px;
+    left: 190px;
+    z-index: 1000;
+}
+.block{
+    width: 400px;
+    height: 20px;
+    background-color: black;
+    /* background-image: url(./obs.JPG); */
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
+.hole{
+    width: 40px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+    /* opacity: .5; */
+}
+h1{
+    font-size:3rem;
+    font-family:'Leckerli One', cursive;
+    color: rgb(230, 240, 236);
+    text-align: center;
+    padding:12px;
+}
+p
+{ 
+    margin-top:5px;
+    font-size: 20px;
+    color: rgb(230, 240, 236);
+    text-align: center;
+}
+#restart
+{
+    padding-left:245px;
+    cursor:pointer;
+}
